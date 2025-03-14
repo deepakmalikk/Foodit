@@ -1,0 +1,27 @@
+{
+  "name": "foodit",
+  "version": "1.0.0",
+  "description": "This is a online food order app",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakmalikk/Foodit.git"
+  },
+  "keywords": [
+    "Food",
+    "App"
+  ],
+  "author": "Deepak Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakmalikk/Foodit/issues"
+  },
+  "homepage": "https://github.com/deepakmalikk/Foodit#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "reactdom": "^2.0.0"
+  }
+}
