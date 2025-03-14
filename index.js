@@ -51,16 +51,16 @@ const Body = () => (
 )
 
 //footer
-const Footer=()=>{
+const Footer=()=>(
     <div className="footer">
-        <p>&copy 2025 </p>
+        <p>© 2021 Swiggy</p>
         <div className="footerLinks">
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
             <p>Pricing</p>
         </div>  
     </div>
-}
+)
 
 const App= ()=> (
     <div className="app">
