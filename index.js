@@ -24,13 +24,13 @@ const Header = () => (
 );
 
 // Restro  Card Component
-const RestroCard = () => (
+const RestroCard = (prop) => (
     <div className="restroCard">
         <img className="restroImg" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/26/78517964-20dc-4e37-92ce-8990deb14ab6_898041.jpg" alt="restroImg" />
         <div className="restroDetails">
-            <h3 className="restroName">Urban Cafe</h3>
-            <p className="averageTime">70-75min</p>
-            <p className="cusine">Snacks, Pizzas</p>
+            <h3 className="restroName">{prop.restroName}</h3>
+            <p className="averageTime">{prop.averageTime}</p>
+            <p className="cusine">{prop.cusine}</p>
             <p className="cityName">Chhindwara City</p>
         </div>
     </div>
@@ -39,7 +39,7 @@ const RestroCard = () => (
 // Body Component
 const Body = () => (
     <div className="body">
-        <RestroCard />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
     </div>
 )
 
