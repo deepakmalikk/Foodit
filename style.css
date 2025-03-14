@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.listItems{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    
+    justify-content: flex-end;
+    
+}
+
+.listItems li{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.superscript{
+    color: #FEA700;
+   
+}
+.body{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+}
+.restroCard{
+    width:150px;
+    height: 250px;
+    background-color: black;
+}
+
+.restroImg{
+    width: 150px;
+}
