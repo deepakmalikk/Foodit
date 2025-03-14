@@ -40,13 +40,33 @@ const RestroCard = (prop) => (
 const Body = () => (
     <div className="body">
         <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
+        <RestroCard restroName="Urban Cafe" averageTime="70-75min" cusine="Snacks, Pizzas" cityName="Chhindwara City"  />
     </div>
 )
+
+//footer
+const Footer=()=>{
+    <div className="footer">
+        <p>&copy 2025 </p>
+        <div className="footerLinks">
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Pricing</p>
+        </div>  
+    </div>
+}
 
 const App= ()=> (
     <div className="app">
         <Header />
         <Body />
+        <Footer />
     </div>
 )
 

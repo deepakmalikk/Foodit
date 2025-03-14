@@ -50,11 +50,15 @@
     flex-direction: column;
     justify-content: flex-start;;
     width:200px;
-    height: 250px;
+    height: 280px;
+    margin-left: 10px;
+   
     color: #1f1f1f;
     cursor: pointer;
+    margin-top: 10px;
        
 }
+
 
 .restroDetails{
     margin-left: 10px;
@@ -66,7 +70,7 @@
 }
 
 .averageTime{
-    font-size: 8px;
+    font-size: 10px;
     font-weight: bold;
     margin-top: 10px;
     
