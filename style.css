@@ -46,11 +46,36 @@
 
 }
 .restroCard{
-    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;;
+    width:200px;
     height: 250px;
-    background-color: black;
+    color: #1f1f1f;
+    cursor: pointer;
+       
 }
 
+.restroDetails{
+    margin-left: 10px;
+    margin-top: 20px;
+}
 .restroImg{
-    width: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.averageTime{
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.cusine{
+    margin-top: 10px;
+}
+
+.cityName{
+    margin-top: 10px;
 }
