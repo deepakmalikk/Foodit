@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is a online food order app",
   "scripts": {
+    "start": "parcel index.html",
+    "Build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -23,5 +25,8 @@
     "parcel": "^2.13.3",
     "react": "^19.0.0",
     "reactdom": "^2.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
   }
 }
